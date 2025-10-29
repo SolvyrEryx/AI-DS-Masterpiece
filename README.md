@@ -6,9 +6,6 @@
 <!-- Animated Typing Title -->
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&color=DE29FA&center=true&vCenter=true&lines=Advanced+AI+%26+Deep+Learning+🔥;CNN+Image+Classifier+%7C+PyTorch+💫;High-Performance+Neural+Networks" alt="Typing SVG" />
 
-<!-- Cosmic Divider -->
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
-
 </div>
 
 ---
@@ -60,23 +57,23 @@ Diving deep into the **infinite universe of AI and Data Science**, this reposito
 
 ### 🔮 2. LSTM Stock Price Forecaster: `lstm_forecast.py`
 
-**Advanced Time Series Forecasting with LSTM Neural Networks**
+**Powerful Long Short-Term Memory network for time series prediction**
 
 #### ✨ Features:
 
-- 📈 **LSTM Architecture** for sequential time series prediction
-- 💹 **Stock Data Processing** with proper normalization
-- 🎯 **Multi-step Forecasting** capabilities
-- 📊 **Matplotlib Visualization** of predictions vs actuals
-- 🔄 **Inference Mode** for real-time predictions
-- 📉 **Training & Validation Split** with performance metrics
-- 💾 **Model Persistence** for deployment
+- 📈 **Multi-layer LSTM** architecture
+- 🔄 **Bidirectional Processing** for enhanced context
+- 📊 **MinMaxScaler** normalization
+- 🎨 **Interactive Visualizations** of predictions vs actual
+- 💾 **Automatic Model Saving** and loading
+- ⚡ **Configurable Sequence Length** and prediction windows
+- 🧮 **Multiple Metrics** (MSE, RMSE, MAE, R² Score)
 
 ---
 
 <div align="center">
 
-## 🛠️ Tech Stack
+## 🛠️ Tech Stack & Tools
 
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" width="60" height="60"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" alt="PyTorch" width="60" height="60"/>
@@ -124,6 +121,19 @@ AI-DS-Masterpiece/
 
 <div align="center">
 
+<!-- Snake Animation Divider -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SolvyrEryx/SolvyrEryx/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SolvyrEryx/SolvyrEryx/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/SolvyrEryx/SolvyrEryx/output/github-contribution-grid-snake.svg">
+</picture>
+
+</div>
+
+---
+
+<div align="center">
+
 ## 🚀 Coming Soon
 
 - 🔮 Advanced NLP Models with Transformers
@@ -131,9 +141,11 @@ AI-DS-Masterpiece/
 - 🎨 GANs for Image Generation
 - 🧠 Reinforcement Learning Agents
 
+</div>
+
 ---
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
+<div align="center">
 
 ### 💜 Built with passion by [Solvyr Eryx](https://github.com/SolvyrEryx)
 
