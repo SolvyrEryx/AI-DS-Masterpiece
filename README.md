@@ -33,7 +33,7 @@ Diving deep into the **infinite universe of AI and Data Science**, this reposito
 
 <div align="center">
 
-## 💫 Featured: MNIST CNN Classifier
+## 💫 Featured Projects
 
 <img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="100">
 <img src="https://user-images.githubusercontent.com/74038190/212257472-08e52665-c503-4bd9-aa20-f5a4dae769b5.gif" width="100">
@@ -42,104 +42,54 @@ Diving deep into the **infinite universe of AI and Data Science**, this reposito
 
 </div>
 
-### 🐍 Python Code: `mnist_classifier.py`
+### 🐍 1. MNIST CNN Classifier: `mnist_classifier.py`
 
 **Sophisticated Convolutional Neural Network for handwritten digit recognition**
 
 #### ✨ Features:
+
 - 🎯 **Advanced CNN Architecture** with 3 convolutional layers
 - 🔥 **Batch Normalization** for improved training stability
 - 💎 **Dropout Regularization** to prevent overfitting
 - 📊 **Real-time Training Visualization** with progress bars
 - 🎨 **Beautiful Plotting** of training history and predictions
-- ⚡ **GPU Support** for accelerated training
-- 🏆 **99%+ Accuracy** on MNIST test set
+- ⚡ **GPU Support** with automatic CUDA detection
+- 💾 **Model Checkpointing** for saving best performance
 
-#### 🚀 Quick Start:
+---
 
-```bash
-# Clone the repository
-git clone https://github.com/SolvyrEryx/AI-DS-Masterpiece.git
-cd AI-DS-Masterpiece
+### 🔮 2. LSTM Stock Price Forecaster: `lstm_forecast.py`
 
-# Install dependencies
-pip install torch torchvision matplotlib numpy tqdm
+**Advanced Time Series Forecasting with LSTM Neural Networks**
 
-# Run the classifier
-python mnist_classifier.py
-```
+#### ✨ Features:
 
-#### 📦 Model Architecture:
-
-```python
-EnhancedCNN(
-  (conv1): Conv2d(1, 32, kernel_size=3, padding=1)
-  (conv2): Conv2d(32, 64, kernel_size=3, padding=1)
-  (conv3): Conv2d(64, 128, kernel_size=3, padding=1)
-  (bn1): BatchNorm2d(32)
-  (bn2): BatchNorm2d(64)
-  (bn3): BatchNorm2d(128)
-  (pool): MaxPool2d(2, 2)
-  (fc1): Linear(1152, 256)
-  (fc2): Linear(256, 128)
-  (fc3): Linear(128, 10)
-  (dropout): Dropout(p=0.5)
-)
-```
-
-#### 📈 Expected Output:
-
-```
-======================================================================
-               MNIST CNN CLASSIFIER
-          AI-DS-Masterpiece by Solvyr Eryx
-======================================================================
-
-Hyperparameters:
-  Batch Size: 64
-  Learning Rate: 0.001
-  Epochs: 10
-  Device: cuda
-
-Training samples: 60000
-Test samples: 10000
-
-Total parameters: 1,199,882
-
-Epoch [10/10]
-----------------------------------------------------------------------
-Training: 100%|██████████| 938/938 [00:45<00:00, 20.84it/s]
-Evaluating: 100%|██████████| 157/157 [00:03<00:00, 44.21it/s]
-
-Train Loss: 0.0234 | Train Acc: 99.28%
-Test Loss: 0.0289 | Test Acc: 99.12%
-
-======================================================================
-Training completed in 8.45 minutes
-Final Test Accuracy: 99.12%
-======================================================================
-```
-
-#### 🎨 Output Visualizations:
-
-The script generates two stunning visualizations:
-1. **training_history.png** - Loss and accuracy curves with deep space purple theme
-2. **predictions.png** - Sample predictions with color-coded results
+- 📈 **LSTM Architecture** for sequential time series prediction
+- 💹 **Stock Data Processing** with proper normalization
+- 🎯 **Multi-step Forecasting** capabilities
+- 📊 **Matplotlib Visualization** of predictions vs actuals
+- 🔄 **Inference Mode** for real-time predictions
+- 📉 **Training & Validation Split** with performance metrics
+- 💾 **Model Persistence** for deployment
 
 ---
 
 <div align="center">
 
-## 💻 Tech Stack
+## 🛠️ Tech Stack
 
-<p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" width="60" height="60"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" alt="PyTorch" width="60" height="60"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" alt="TensorFlow" width="60" height="60"/>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="Sklearn" width="60" height="60"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" alt="OpenCV" width="60" height="60"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" width="60" height="60"/>
-</p>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" width="60" height="60"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" alt="PyTorch" width="60" height="60"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" alt="TensorFlow" width="60" height="60"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" alt="NumPy" width="60" height="60"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" alt="Pandas" width="60" height="60"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="Sklearn" width="60" height="60"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" alt="OpenCV" width="60" height="60"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" width="60" height="60"/>
+
+</div>
+
+<div align="center">
 
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
 <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
@@ -158,11 +108,13 @@ The script generates two stunning visualizations:
 ```
 AI-DS-Masterpiece/
 │
-├── mnist_classifier.py    # Main CNN classifier script
+├── mnist_classifier.py    # CNN classifier for MNIST digits
+├── lstm_forecast.py       # LSTM time series forecasting
 ├── README.md             # This file
-├── data/                 # MNIST dataset (auto-downloaded)
-├── mnist_cnn_model.pth   # Trained model weights
-├── training_history.png  # Training visualization
+├── data/                 # Dataset storage (auto-downloaded)
+├── mnist_cnn_model.pth   # Trained CNN model weights
+├── lstm_model.pth        # Trained LSTM model weights
+├── training_history.png  # Training visualizations
 └── predictions.png       # Sample predictions
 ```
 
@@ -176,7 +128,6 @@ AI-DS-Masterpiece/
 
 - 🔮 Advanced NLP Models with Transformers
 - 🎯 Object Detection with YOLO
-- 📊 Time Series Forecasting
 - 🎨 GANs for Image Generation
 - 🧠 Reinforcement Learning Agents
 
@@ -186,7 +137,11 @@ AI-DS-Masterpiece/
 
 ### 💜 Built with passion by [Solvyr Eryx](https://github.com/SolvyrEryx)
 
-<img src="https://komarev.com/ghpvc/?username=SolvyrEryx&label=Repository%20Views&color=9d4edd&style=for-the-badge" alt="Views" />
+<!-- Real-time GitHub Profile Views -->
+<img src="https://komarev.com/ghpvc/?username=SolvyrEryx&color=purple" alt="Profile Views" />
+
+<!-- Real-time Repository Views -->
+<img src="https://komarev.com/ghpvc/?username=SolvyrEryx&repo=AI-DS-Masterpiece&color=purple&label=Repository%20Views" alt="Repository Views" />
 
 <!-- Animated Footer -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,18,24&height=120&section=footer&animation=twinkling" width="100%"/>
